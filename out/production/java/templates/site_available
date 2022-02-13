@@ -1,0 +1,8 @@
+<VirtualHost *:80>\n"
+    ServerName %site_name%\n"
+    ServerAlias www.%site_name%\n"
+    ServerAdmin webmaster@%site_name%\n"
+    DocumentRoot %projects_path%%site_name%\n"
+    ErrorLog ${APACHE_LOG_DIR}/%site_name%-error.log\n"
+    CustomLog ${APACHE_LOG_DIR}/%site_name%-access.log combined\n"
+</VirtualHost>"

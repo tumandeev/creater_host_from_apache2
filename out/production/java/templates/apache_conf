@@ -1,0 +1,4 @@
+\n\n<Directory %projects_path%%site_name%>\n
+    Options -Indexes +FollowSymLinks\n
+    AllowOverride All\n
+</Directory>
