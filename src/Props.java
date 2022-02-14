@@ -5,7 +5,7 @@ import java.util.Properties;
 public class Props extends Properties{
 
 
-    public static Properties getProps() throws IOException {
+    public Properties getProps() throws IOException {
 
 
         InputStream inputProp = Thread.currentThread().getContextClassLoader().getResourceAsStream("resources/filepath.properties");
