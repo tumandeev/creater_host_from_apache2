@@ -12,8 +12,8 @@ public class addSiteAvailable {
 
         Props properties = new Props();
 
-        this.FilePath = properties.getFilePaths("siteAvailableDir");
-        this.ProjectsPath = properties.getFilePaths("siteProjectsPath");
+        this.FilePath = properties.getFilePaths("site_available_dir");
+        this.ProjectsPath = properties.getFilePaths("site_projects_path");
         this.siteName = siteName;
 
     }

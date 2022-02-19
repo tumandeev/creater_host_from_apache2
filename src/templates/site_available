@@ -5,4 +5,4 @@
     DocumentRoot %projects_path%%site_name%
     ErrorLog ${APACHE_LOG_DIR}/%site_name%-error.log
     CustomLog ${APACHE_LOG_DIR}/%site_name%-access.log combined
-</VirtualHost>"
+</VirtualHost>

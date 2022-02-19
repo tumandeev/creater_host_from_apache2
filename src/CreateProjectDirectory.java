@@ -9,7 +9,7 @@ public class CreateProjectDirectory {
     public CreateProjectDirectory(String SiteName) throws IOException {
 
         Props properties = new Props();
-        this.FilePath = properties.getFilePaths("siteProjectsPath");
+        this.FilePath = properties.getFilePaths("site_projects_path");
         this.SiteName = SiteName;
     }
 

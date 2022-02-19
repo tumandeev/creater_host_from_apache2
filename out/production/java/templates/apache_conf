@@ -1,5 +1,0 @@
-
-<Directory %projects_path%%site_name%>
-    Options -Indexes +FollowSymLinks
-    AllowOverride All
-</Directory>

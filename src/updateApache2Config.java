@@ -14,7 +14,7 @@ public class updateApache2Config {
 
         Props properties = new Props();
         this.FilePath = properties.getFilePaths("apache2.conf");
-        this.ProjectsPath = properties.getFilePaths("siteProjectsPath");
+        this.ProjectsPath = properties.getFilePaths("site_projects_path");
         this.siteName = siteName;
 
 
